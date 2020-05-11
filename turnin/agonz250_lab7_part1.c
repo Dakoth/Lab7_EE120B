@@ -86,6 +86,7 @@ void Tick() {
 		case Start:
 			tmpC = 0; 
 			state = Wait;
+			LCD_WriteData(tmpC + '0');
 			break;
 		
 		case Wait:

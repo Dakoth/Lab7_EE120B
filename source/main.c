@@ -240,7 +240,7 @@ void Tick() {
 				LCD_WriteData(score + '0');
 			}	
 			else { //If won
-				LCD_DisplayString(1, "Winner winner chicken dinner!");
+				LCD_DisplayString(1, "Winner winner   chicken dinner!");
 				score = 5;
 			}
 			break;
